@@ -1,36 +1,3 @@
-// import React from 'react'
-// import Projectcard from './Projectcard'
-
-// const Projects = () => {
-//   return (
-//     <div id="Projects" className="p-10 md:p-24 text-white">
-//         <h1 className="text-2xl md:text-4xl text-white font-bold">
-//             Projects
-//         </h1>
-//         <div className="py-12 px-8 flex flex-wrap gap-5 ">
-//             <Projectcard title="Chatting Application" main="this is a chat application made using react node a mern stack application made with socket io" />
-//            <Projectcard title="Nike Website" main="this is a chat application made using react node a mern stack application made with socket io" />
-//             <Projectcard title="Spotify UI" main="this is a chat application made using react node a mern stack application made with socket io" />
-//             <Projectcard title="Notes Application" main="this is a chat application made using react node a mern stack application made with socket io" />
-//         </div>
-
-      
-//     </div>
-//   )
-// }
-
-// export default Projects
-
-
-
-
-
-
-
-
-
-
-import React from 'react';
 import Projectcard from './Projectcard';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -80,15 +47,15 @@ const Projects = () => {
     title="Nike Website"
     main="A modern Nike website clone built with React and styled using TailwindCSS."
     demoLink="https://aditi-raghuwanshi.netlify.app/"
-    codeLink="https://github.com/AditiRaghuwanshi/NikeTailwindProject" // Replace with actual repo
+    codeLink="https://github.com/AditiRaghuwanshi/NikeTailwindProject" 
   />
 </SwiperSlide>
 <SwiperSlide>
   <Projectcard
     title="Spotify UI"
     main="A Spotify-like UI created using React with dummy data for layout practice."
-    demoLink="https://your-spotify-ui-url.com" // Add your URL
-    codeLink="https://github.com/your-github/spotify-ui-repo" // Replace with actual repo
+    demoLink="https://spotify-frontend-sigma-olive.vercel.app/" // Add your URL
+    codeLink="https://github.com/AditiRaghuwanshi/SpotifyFrontend" // Replace with actual repo
   />
 </SwiperSlide>
 

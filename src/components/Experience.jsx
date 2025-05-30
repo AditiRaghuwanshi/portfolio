@@ -9,11 +9,11 @@ const Experience = () => {
   return (
     <div id="Experience" className="p-10 md:p-24">
         <h1 className="text-2xl md:text-4xl text-white font-bold">
-            Experience
+            Experience 
         </h1>
 
          <h1 className="text-xl md:text-2xl text-blue-400 font-semibold rounded-3xl justify-center mx-20 md:mx-27">
-            Tech Stacks : 
+            Tech Stacks: 
         </h1>
         <div className="flex flex-wrap items-center justify-around">
             <h1></h1>

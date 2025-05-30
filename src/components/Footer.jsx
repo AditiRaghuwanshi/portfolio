@@ -12,7 +12,7 @@ const Footer = () => {
 
 
             </div>
-            <ul className="mx-5 text-100 my-7">
+            <ul className="mx-1 text-100 my-7">
                 <li className="text-sm md:text-lg  text-black relative md:p-2">
                     Email:&nbsp;
                     <a href="mailto:raghuwanshiaditi6@gmail.com" className="text-sm md:text-lg text-blue-500 hover:underline text-100">
