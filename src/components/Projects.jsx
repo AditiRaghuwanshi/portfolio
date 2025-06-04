@@ -3,6 +3,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import chitchat from '../assets/chitchat.png';
+import spotify from '../assets/spotify.png';
+import nike from '../assets/nike.png';
+import notes from '../assets/notes.png';
 import { Navigation, Pagination } from 'swiper/modules';
 
 const Projects = () => {
@@ -22,8 +26,9 @@ const Projects = () => {
         }}
         className="w-full"
       >
-   <SwiperSlide>
+  <SwiperSlide>
   <Projectcard
+    image={chitchat}
     title="Chatting Application"
     main="This is a chat app made with React, Node.js, Socket.io (MERN)."
     demoLink="https://chit-chat-frontend-sooty.vercel.app/"
@@ -34,6 +39,7 @@ const Projects = () => {
 
 <SwiperSlide>
   <Projectcard
+    image={notes}
     title="Notes Application"
     main="A MERN notes app where users can CRUD notes."
     demoLink="https://notes-ten-chi.vercel.app/"
@@ -44,20 +50,24 @@ const Projects = () => {
 
 <SwiperSlide>
   <Projectcard
+    image={nike}
     title="Nike Website"
     main="A modern Nike website clone built with React and styled using TailwindCSS."
     demoLink="https://aditi-raghuwanshi.netlify.app/"
-    codeLink="https://github.com/AditiRaghuwanshi/NikeTailwindProject" 
+    codeLink="https://github.com/AditiRaghuwanshi/NikeTailwindProject"
   />
 </SwiperSlide>
+
 <SwiperSlide>
   <Projectcard
+    image={spotify}
     title="Spotify UI"
     main="A Spotify-like UI created using React with dummy data for layout practice."
-    demoLink="https://spotify-frontend-sigma-olive.vercel.app/" // Add your URL
-    codeLink="https://github.com/AditiRaghuwanshi/SpotifyFrontend" // Replace with actual repo
+    demoLink="https://spotify-frontend-sigma-olive.vercel.app/"
+    codeLink="https://github.com/AditiRaghuwanshi/SpotifyFrontend"
   />
 </SwiperSlide>
+
 
 
       </Swiper>
