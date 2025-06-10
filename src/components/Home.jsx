@@ -109,15 +109,15 @@ const Home = () => {
     <div className="text-white flex w-full justify-between items-start p-10 md:p-20">
       <div className="md:w-2/4 md:pt-10">
        <h1 className="text-3xl md:text-6xl font-bangers leading-normal tracking-tighter">
-  Hii <span className="text-blue-300">{text}</span>
+  Hii <span className="text-blue-300 mb-5">{text}</span>
   <span className="text-blue-500">
     <Cursor cursorStyle="|" />
   </span>
 </h1>
 
 
-        <p className="text-sm md:text-base tracking-tight">
-          MERN Stack Developer passionate about building dynamic, responsive web apps. Started with Frontend and expanded into Backend to create full-stack, visually appealing solutions.
+        <p className="text-sm  md:text-base  mt-6">
+          Focused on mastering the MERN Stack by building responsive, real-world web applications with a learning-driven mindset.
         </p>
 
         <div>
